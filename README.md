@@ -58,7 +58,7 @@
 
 ## Deploy to Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/PYROPRIEST/legend)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/HDCinema4U/imdb)
 
 ## Deploy to Koyeb
 
