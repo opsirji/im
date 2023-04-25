@@ -1,9 +1,13 @@
 class script(object):
-    START_TXT = """<b>Hᴀɪ {},
-My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/clause07>Myself Deku</a></b>"""
+    START_TXT = """<b>ʜᴇʏ, {}
     
-    HELP_TXT = """<b>𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
+ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!
+
+🇮🇳 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/HDMaxx">ʜᴅᴍᴀxx</a></b>"""
+    
+    HELP_TXT = """<b>Hᴇʏ {}
+Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 
 # ⚠️ Please don't change our credits 👇🏻
@@ -236,13 +240,20 @@ This module only works for my admins
 • /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
 • /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>"""
     
-    STATUS_TXT = """<b>📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ: <code>{}</code>
-👤 Tᴏᴛᴀʟ Uꜱᴇʀꜱ: <code>{}</code>
-♻️ Tᴏᴛᴀʟ Gʀᴏᴜᴩꜱ: <code>{}</code>
-🗃️ Uꜱᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-🆓 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-
-©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy:<a href=https://t.me/CLAUSE07>Myself Deku</a></b>"""
+    STATUS_TXT = """<b>╔════❰ ɴᴀʀᴜᴛᴏ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪
+║╭━━━━━━━━━━━━━━━➣
+║┣⪼𖨠 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
+║┃
+║┣⪼𖨠 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+║┃
+║┣⪼𖨠 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+║┃
+║┣⪼𖨠 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+║┃
+║┣⪼𖨠 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
+║┃
+║╰━━━━━━━━━━━━━━━➣ 
+╚════❰<a href="https://t.me/HDMaxx">ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ</a>❱══❍⊱❁۪۪</b>"""
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
@@ -285,26 +296,11 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 </b>
 """
 
-    IMDB_TEMPLATE_TXT = """
-<b>⍞ 𝗧𝗶𝘁𝗹𝗲</b> : <b><i><a href={url}>{title}</a></i></b><b>
+    IMDB_TEMPLATE_TXT = """<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n‌\n‌‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 𝟷𝟶 Mɪɴᴜᴛᴇs.</b>"""
 
-⌗ 𝗚𝗲𝗻𝗿𝗲𝘀</b> :<b><i>{genres}</i></b><b>
-★ 𝗥𝗮𝘁𝗶𝗻𝗴</b> : <b><i><a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)</i></b><b>
-
-〄 𝗥𝗲𝗹𝗲𝗮𝘀𝗲𝗱</b> : <b><i>{release_date}</i></b><b>
-⌬ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀</b> : <b><i>{languages}</i></b><b>
-⛤ 𝗖𝗼𝘂𝗻𝘁𝗿𝗶𝗲𝘀</b> : <b><i>{countries}</i></b><b>
-⎙ 𝗦𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗲</b> : <code>{plot}</code><b>
-
-★Requested by</b> : {message.from_user.mention}
-"""
-
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
-
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-➪<a href=https://t.me/AECR_MOVIES> AECR MOVIES</a>
-➪<a href=https://t.me/THE_AECR> Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
+    CUSTOM_FILE_CAPTION = """<b></b>**[{file_name}](https://t.me/HD_Request) ╔════════════════════════╗
+🌼 нαρρу ∂σωηℓσα∂ιηg αη∂ ¢σмє αgαιη 🌸
+╚════════════════════════╝**</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
