@@ -192,7 +192,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♀️ {search} ♀️ ', 'qinfo')
+            InlineKeyboardButton(f'⛔️ ᴅᴏɴᴀᴛᴇ sᴏᴍᴇ ᴜs ⛔️', url=https://t.me/I_M_STARBOY)
         ]
     )
     btn.insert(1, 
@@ -758,10 +758,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tinfo":
         await query.answer("▸ ᴛɪᴘs \n\nᴛʏᴘᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ (ɢᴏᴏɢʟᴇ)\n\n ɪғ ʏᴏᴜ ɴᴏᴛ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ ɪɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʜᴇ ɴᴇxᴛ sᴛᴇᴘ ɪs ᴄʟɪᴄᴋ ɴᴇxᴛ ʙᴜᴛᴛᴏɴ.\n\n ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ @HDMaxx", show_alert=True)
 
-    elif query.data == "surprise":
-        btn = [[
-            InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
-        ]]
         reply_markup=InlineKeyboardMarkup(btn)
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1403,7 +1399,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'{search}', 'qinfo')
+            InlineKeyboardButton(f'⛔️ ᴅᴏɴᴀᴛᴇ sᴏᴍᴇ ᴜs ⛔️', url=https://t.me/I_M_STARBOY)
         ]
     )
     btn.insert(1, 
