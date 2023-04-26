@@ -12,14 +12,13 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 # ⚠️ Please don't change our credits 👇🏻
 
-    ABOUT_TXT = """<b>○ 𝗠𝘆 𝗡𝗮𝗺𝗲: {}
-○ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿   : <a href=tg://settings>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
-○ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :  <a href=https://t.me/clause07>Myself Deku</a>
-○ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : Pyᴛʜᴏɴ3
-○ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆   : Pyʀᴏɢʀᴀᴍ
-○ 𝗦𝗲𝗿𝘃𝗲𝗿    : Hᴇʀᴏᴋᴜ
-○ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲  : Moɴɢᴏ ᴅʙ
-○ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀   : <a href=https://t.me/aecr_archive>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>"""
+    ABOUT_TXT = """<b>➣ ᴍʏ ɴᴀᴍᴇ ⋟ Imdb_movies
+➢ ᴄʀᴇᴀᴛᴏʀ ⋟ 𝘐𝘔𝘋𝘣 (https://t.me/Imdb_updates)
+➣ ʟɪʙʀᴀʀʏ ⋟ 𝘱𝘺𝘳𝘰𝘨𝘳𝘢𝘮
+➢ ʟᴀɴɢᴜᴀɢᴇ ⋟ 𝘱𝘺𝘵𝘩𝘰𝘯 3
+➣ ᴅᴀᴛᴀʙᴀsᴇ ⋟ 𝘮𝘰𝘯𝘨𝘰 𝘥𝘣
+➢ ʙᴏᴛ sᴇʀᴠᴇʀ ⋟ 𝘬𝘰𝘺𝘦𝘣
+➣ ʙᴜɪʟᴅ sᴛᴀᴛs ⋟ 𝘷2.0.1 ﹝ʙᴇᴛᴀ﹞</b>"""
     
     
     OWNERANE_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
@@ -94,30 +93,36 @@ these are the extra features of DULQUER
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
 
-    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
+    SONG_TXT = """<b>sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ
 
-<i>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳.𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂../</i>
+sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ, ꜰᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜsɪᴄ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ꜰᴇᴀᴛᴜᴇ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ sᴏɴɢ ᴡɪᴛʜ sᴜᴘᴇʀ ꜰᴀsᴛ sᴘᴇᴇᴅ.ᴡᴏʀᴋs ᴏɴʟʏ ᴏɴ ɢʀᴏᴜᴘs..
 
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
+ᴄᴏᴍᴍᴀɴᴅs
 
-⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
+🎶 /song - sᴏɴɢ ɴᴀᴍᴇ 
 
-<b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-@THE_AECR"""
+</b>ᴡᴏʀᴋs ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ</b>"""
 
-    VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
-• 𝘜𝘴𝘢𝘨𝘦
-𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
-𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
-• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/example...)
-• 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-<code>/mp4 https://youtu.be/example...</code>
-<code>/video https://youtu.be/example...</code>"""
+    VIDEO_TXT ="""ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ.
 
-    TTS_TXT = """Help: <b> TTS 🎤 module:</b>
-Translate text to speech
-<b>Commands and Usage:</b>
-• /tts <text> : convert text to speech"""
+ᴜsᴀɢᴇ -
+
+ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ
+
+ʜᴏᴡ ᴛᴏ ᴜsᴇ
+
+ᴛʏᴘᴇ /video or /mp4
+
+ᴇxᴀᴍᴘʟᴇ -
+
+/mp4 https://youtu.be/example...
+/video https://youtu.be/example..."""
+
+    TTS_TXT = """ʜᴇʟᴘ - ᴛᴛs ᴍᴏᴅᴜʟᴇ (ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ)
+
+ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴀɢᴇ:
+
+/tts : ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ"""
 
     GTRANS_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖦𝗈𝗈𝗀𝗅𝖾 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾𝗋
 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚝𝚛𝚊𝚗𝚜𝚕𝚊𝚝𝚎 𝚊 𝚝𝚎𝚡𝚝 𝚝𝚘 𝖺𝗇𝗒 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝. 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚠𝚘𝚛𝚔𝚜 𝚘𝚗 𝚋𝚘𝚝𝚑 𝚙𝚖 𝚊𝚗𝚍 𝚐𝚛𝚘𝚞𝚙 ✯
@@ -130,11 +135,11 @@ Translate text to speech
 • 𝗆𝗅 = 𝖬𝖺𝗅𝖺𝗒𝖺𝗅𝖺𝗆
 • 𝗁𝗂 = 𝖧𝗂𝗇𝖽𝗂"""
 
-    TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
+    TELE_TXT = """<b>▫️HELP: Telegraph▪️
 Do as you wish with telegra.ph module!
-</b>USAGE:</b>
+USAGE:
 ✒️ /telegraph - Send me Picture or Vide Under (5MB)
-<b>NOTE:</b>
+NOTE:
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
@@ -182,7 +187,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @Ak_Links1"""
+ <i>This feature added by @HDMaxx"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -285,8 +290,6 @@ Name - {}
 
 ⚠️ <b>This file will be deleted from here within 10 minute as it has copyright ... !!!</b>
 
-<b>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 10 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക!</b>
-
 <b>© Powered by {}</b>
 """
     SUR_TXT = """
@@ -314,7 +317,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 
     OLD_ALRT_TXT = """𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧 """
 
-    TOP_ALRT_MSG = """♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
+    TOP_ALRT_MSG = """ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
     MVE_NT_FND = """<b>ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ʏᴇᴛ  ʀᴇʟᴇᴀꜱᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴅᴀᴛᴀʙᴀꜱᴇ</b> """
 
@@ -364,7 +367,7 @@ My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ 
 ➪ /batch ›› <b>𝚃𝙾 𝙲𝚁𝙴𝙰𝚃𝙴 𝙻𝙸𝙽𝙺 𝙵𝙾𝚁 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝙵𝙸𝙻𝙴𝚂.</b>
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 <code>/batch https://t.me/AECR_ARCHIVE https://t.me/AECR_ARCHIVE</code>
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/CLAUSE07><b>DQ Dev</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/HDMAXX<b>GOD</b></a>"""
 
 
 
