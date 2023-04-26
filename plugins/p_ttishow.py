@@ -59,7 +59,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('HELP', url=https://t.me/All_Movies1_Bot),
+                                                                           InlineKeyboardButton('HELP', url='https://t.me/All_Movies1_Bot'),
                                                                            InlineKeyboardButton('UPDATES', url=MAIN_CHANNEL)
                                                                         ]]
                                                  ),
