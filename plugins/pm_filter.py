@@ -113,7 +113,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>Hᴇʏ Dᴜᴅᴇ🥰,\n\nYᴏᴜ ᴄᴀɴ'ᴛ Gᴇᴛ ᴍᴏᴠɪᴇ ʜᴇʀᴇ........\nAꜱᴋ ᴍᴏᴠɪᴇ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ 𝚓ᴏɪɴ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url=f"https://t.me/HD_REQUEST")]]))
+    await message.reply_text("<b>Hᴇʏ Dᴜᴅᴇ🥰,\n\nYᴏᴜ ᴄᴀɴ'ᴛ Gᴇᴛ ᴍᴏᴠɪᴇ ʜᴇʀᴇ........\nAꜱᴋ ᴍᴏᴠɪᴇ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ 𝚓ᴏɪɴ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 Rᴇǫᴜᴇsᴛ Hᴇʀᴇ", url=f"https://t.me/HD_REQUEST")]]))
     await bot.send_message(chat_id=ADMINS,text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>")
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -149,7 +149,7 @@ async def next_page(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"◉ {get_size(file.file_size)} ◉ {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
+                        text=f"{get_size(file.file_size)} {file.file_name}", url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
                     ),
                 ]
                 for file in files
@@ -172,7 +172,7 @@ async def next_page(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                        text=f"◉ {get_size(file.file_size)} ◉ {file.file_name}", callback_data=f'files#{file.file_id}'
+                        text=f"{get_size(file.file_size)} {file.file_name}", callback_data=f'files#{file.file_id}'
                     ),
                 ]
                 for file in files
@@ -192,7 +192,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'⛔️ ᴅᴏɴᴀᴛᴇ sᴏᴍᴇ ᴜs ⛔️', url=https://t.me/I_M_STARBOY)
+            InlineKeyboardButton(f'⛔️ ᴅᴏɴᴀᴛᴇ sᴏᴍᴇ ᴜs ⛔️', url=f"https://t.me/I_M_STARBOY")
         ]
     )
     btn.insert(1, 
@@ -546,7 +546,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("ɪ ʟɪᴋᴇ ʏᴏᴜʀ ꜱᴍᴀʀᴛɴᴇꜱꜱ ,ʙᴜᴛ ᴅᴏɴ'ᴛ ʙᴇ ᴏᴠᴇʀꜱᴍᴀʀᴛ😒\n@HDMAXX", show_alert=True)
+            await query.answer("ɪ ʟɪᴋᴇ ʏᴏᴜʀ ꜱᴍᴀʀᴛɴᴇꜱꜱ ,ʙᴜᴛ ᴅᴏɴ'ᴛ ʙᴇ ᴏᴠᴇʀꜱᴍᴀʀᴛ😒\n @HDMAXX", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -1399,7 +1399,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'⛔️ ᴅᴏɴᴀᴛᴇ sᴏᴍᴇ ᴜs ⛔️', url=https://t.me/I_M_STARBOY)
+            InlineKeyboardButton(f'⛔️ ᴅᴏɴᴀᴛᴇ sᴏᴍᴇ ᴜs ⛔️', url=f"https://t.me/I_M_STARBOY")
         ]
     )
     btn.insert(1, 
