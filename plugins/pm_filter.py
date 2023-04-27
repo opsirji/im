@@ -113,7 +113,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>Hᴇʏ Dᴜᴅᴇ🥰,\n\nYᴏᴜ ᴄᴀɴ'ᴛ Gᴇᴛ ᴍᴏᴠɪᴇ ʜᴇʀᴇ........\nAꜱᴋ ᴍᴏᴠɪᴇ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nCʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ 𝚓ᴏɪɴ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 Rᴇǫᴜᴇsᴛ Hᴇʀᴇ", url=f"https://t.me/HD_REQUEST")]]))
+    await message.reply_text("<b>👋 ʜᴇʟʟᴏ ꜱɪʀ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ........\nʀᴇǫᴜᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴏɴ ᴏᴜʀ ɢʀᴏᴜᴘ\nᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴏɪɴ ᴛʜᴇ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎭 Rᴇǫᴜᴇsᴛ Hᴇʀᴇ", url=f"https://t.me/HD_REQUEST")]]))
     await bot.send_message(chat_id=ADMINS,text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>")
 
 @Client.on_callback_query(filters.regex(r"^next"))
@@ -774,13 +774,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🎭 ʀ ɢʀᴏᴜᴘ', url=https://t.me/HD_Request),
-            InlineKeyboardButton('📽 ᴄʜᴀɴɴᴇʟ', url=https://t.me/HDMaxx)
+            InlineKeyboardButton('🎭 ʀ ɢʀᴏᴜᴘ', url=f"https://t.me/HD_REQUEST"),
+            InlineKeyboardButton('📽 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/HDMAXX")
         ], [
             InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs ', callback_data='help'),
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat='')
         ], [
-            InlineKeyboardButton('❄️ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ❄️', url=https://t.me/HDmaxx)
+            InlineKeyboardButton('❄️ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ❄️', url=f"https://t.me/HDMAXX")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1220,7 +1220,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rfrsh":
-        await query.answer("𝙁𝙚𝙩𝙘𝙝𝙞𝙣𝙜 𝙈𝙤𝙣𝙜𝙤𝘿𝙗 𝘿𝙖𝙩𝙖𝘽𝙖𝙨𝙚")
+        await query.answer("Fᴇᴛᴄʜɪɴɢ Dᴀᴛᴀʙᴀꜱᴇ")
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='stats'),
             InlineKeyboardButton('ʀᴇғʀᴇsʜ', callback_data='rfrsh')
