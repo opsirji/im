@@ -778,7 +778,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📽 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/HDMAXX")
         ], [
             InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs ', callback_data='help'),
-            InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat='')
         ], [
             InlineKeyboardButton('❄️ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ❄️', url=f"https://t.me/HDMAXX")
         ]]
@@ -793,22 +793,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer(MSG_ALRT)
-    elif query.data == "help2":
-        buttons = [[                               
-            InlineKeyboardButton('♻️ Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ ♻️', callback_data='help')  
-            ],[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter')
-            ],[
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
-            InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅꜱ', callback_data='extra')   
-            ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Sᴛᴀᴛᴜꜱ', callback_data='stats')
-            ],[
-            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/aecr_archive')
-         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
