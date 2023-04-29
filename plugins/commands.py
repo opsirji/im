@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url=(MAIN_CHANNEL))
             ],
             [
-                InlineKeyboardButton('🔰 ʜᴇʟᴘ 🔰', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🔰 ʜᴇʟᴘ 🔰', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
