@@ -245,7 +245,7 @@ This module only works for my admins
 • /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
 • /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>"""
     
-    STATUS_TXT = """<b>╔════❰ ɴᴀʀᴜᴛᴏ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪
+    STATUS_TXT = """<b>╔════❰ ᴍʏ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼𖨠 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
 ║┃
