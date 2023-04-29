@@ -296,7 +296,7 @@ Name - {}
     IMDB_TEMPLATE_TXT = """<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n‌\n‌‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 𝟷𝟶 Mɪɴᴜᴛᴇs.</b>"""
 
     CUSTOM_FILE_CAPTION = """</b>**[{file_name}](https://t.me/HD_Request) ╔════════════════════════╗
-🌼 нαρρу ∂σωηℓσα∂ιηg αη∂ ¢σмє αgαιη 🌸
+🌼нαρρу ∂σωηℓσα∂ιηg αη∂ ¢σмє αgαιη🌸
 ╚════════════════════════╝**</b>"""
 
     RESTART_TXT = """
