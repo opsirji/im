@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url=(MAIN_CHANNEL))
+                InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url=(MAIN_CHANNEL))
             ],
             [
-                InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🔰 ʜᴇʟᴘ 🔰', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -235,7 +235,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('📢𝗝𝗢𝗜𝗡 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟📢', url=(MAIN_CHANNEL)) ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥 ʀᴇǫᴜᴇsᴛ ᴀɢᴀɪɴ 🔥', url=(S_GROUP)) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
@@ -335,12 +335,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="YES", callback_data="autofilter_delete"
+                        text="ʏᴇs ✅", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="CANCEL", callback_data="close_data"
+                        text="ɴᴏ ❌", callback_data="close_data"
                     )
                 ],
             ]
