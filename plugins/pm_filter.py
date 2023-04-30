@@ -1462,7 +1462,8 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b><i>𝙃𝙚𝙧𝙚 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞𝙨 𝙛𝙤𝙪𝙣𝙙 𝙮𝙤𝙪𝙧 𝙦𝙪𝙚𝙧𝙮:\n {search}\n👤𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 : {message.from_user.mention}\n👥𝙂𝙧𝙤𝙪𝙥 : {message.chat.title}</i></b>"
+        cap = f"<b>**🎪 ᴛɪᴛɪʟᴇ </b> : <b><i><a href={url}>{title}</a></i></b><b>\n\n┏⁉️ ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}
+┣🔆 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ</a>┗♻️ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HDmaxxt>ʜᴅᴍᴀxx</a>\n\n⚠️ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n❇️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}**</b>"
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
