@@ -496,13 +496,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"😎Hᴇʏ {query.from_user.first_name},\n ❌ Tʜɪs Is Nᴏᴛ Yᴏᴜ ❌\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ! ✅", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜɪs Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ❌\n\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Sɪʀ! ✅", show_alert=True)
             elif settings['botpm']:
                 if clicked == typed:
                     await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                     return
                 else:
-                    await query.answer(f"😎Hᴇʏ {query.from_user.first_name},\n ❌ Tʜɪs Is Nᴏᴛ Yᴏᴜ ❌\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ! ✅", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜɪs Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ❌\n\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Sɪʀ! ✅", show_alert=True)
             else:
                 if clicked == typed:
                     file_send=await client.send_cached_media(
@@ -536,7 +536,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         await Joel_tgx.delete()
                         await file_send.delete()
                 else:
-                    await query.answer(f"😎Hᴇʏ {query.from_user.first_name},\n ❌ Tʜɪs Is Nᴏᴛ Yᴏᴜ ❌\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ! ✅", show_alert=True)
+                    await query.answer(f"😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜɪs Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ❌\n\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Sɪʀ! ✅", show_alert=True)
                 await query.answer('Cʜᴇᴄᴋ PM, I ʜᴀᴠᴇ sᴇɴᴛ ғɪʟᴇs ɪɴ PM', show_alert=True)
         except UserIsBlocked:
             await query.answer('𝐔𝐧𝐛𝐥𝐨𝐜𝐤 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐦𝐚𝐡𝐧 !', show_alert=True)
