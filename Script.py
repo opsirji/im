@@ -299,15 +299,15 @@ Name - {}
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>🎪 ᴛɪᴛɪʟᴇ </b> : <b><i><a href={url}>{title}</a></i></b><b>
+<b>**🎪 ᴛɪᴛɪʟᴇ </b> : <b><i><a href={url}>{title}</a></i></b><b>
 
 ┏⁉️ ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}
 ┣🔆 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ</a>
-┗♻️ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HD_request>ʜᴅᴍᴀxx</a>
+┗♻️ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HDmaxxt>ʜᴅᴍᴀxx</a>
 
 ⚠️ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️
 
-❇️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ</a>
+❇️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ**</a>
 """
 
     CUSTOM_FILE_CAPTION = """</b>**[{file_name}](https://t.me/HD_Request) ╔════════════════════════╗
