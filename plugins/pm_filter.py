@@ -113,7 +113,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴏᴠɪᴇs / sᴇʀɪᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ꜰɪʀsᴛ ʙᴜᴛᴛᴏɴ 👇\n\n अगर आप मूवी या वेब सीरीज लेना चाहते हैं तो इस बटन पर क्लिक करें 👇</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ᴍᴏᴠɪᴇs / sᴇʀɪᴇs", url=f"https://t.me/HD_REQUEST")]]))
+    await message.reply_text("<b>**ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴏᴠɪᴇs / sᴇʀɪᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ꜰɪʀsᴛ ʙᴜᴛᴛᴏɴ 👇\n\nअगर आप मूवी या वेब सीरीज लेना चाहते हैं तो इस बटन पर क्लिक करें 👇**</b>",reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ᴍᴏᴠɪᴇs / sᴇʀɪᴇs", url=f"https://t.me/HD_REQUEST")]]))
     await bot.send_message(chat_id=ADMINS,text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>")
 
 @Client.on_callback_query(filters.regex(r"^next"))
