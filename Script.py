@@ -1,24 +1,21 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ, {}
+    START_TXT = """<b>Hᴀɪ {},
+My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/clause07>Myself Deku</a></b>"""
     
-ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
-ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!
-
-🇮🇳 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/HDMaxx">ʜᴅᴍᴀxx</a></b>"""
-    
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    HELP_TXT = """<b>𝙷𝙴𝚈 {}
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
 
 
 # ⚠️ Please don't change our credits 👇🏻
 
-    ABOUT_TXT = """<b>➣ ᴍʏ ɴᴀᴍᴇ ⋟ Imdb_movies
-➢ ᴄʀᴇᴀᴛᴏʀ ⋟ 𝘐𝘔𝘋𝘣 (https://t.me/Imdb_updates)
-➣ ʟɪʙʀᴀʀʏ ⋟ 𝘱𝘺𝘳𝘰𝘨𝘳𝘢𝘮
-➢ ʟᴀɴɢᴜᴀɢᴇ ⋟ 𝘱𝘺𝘵𝘩𝘰𝘯 3
-➣ ᴅᴀᴛᴀʙᴀsᴇ ⋟ 𝘮𝘰𝘯𝘨𝘰 𝘥𝘣
-➢ ʙᴏᴛ sᴇʀᴠᴇʀ ⋟ 𝘬𝘰𝘺𝘦𝘣
-➣ ʙᴜɪʟᴅ sᴛᴀᴛs ⋟ 𝘷2.0.1 ﹝ʙᴇᴛᴀ﹞</b>"""
+    ABOUT_TXT = """<b>○ 𝗠𝘆 𝗡𝗮𝗺𝗲: {}
+○ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿   : <a href=tg://settings>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
+○ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :  <a href=https://t.me/clause07>Myself Deku</a>
+○ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : Pyᴛʜᴏɴ3
+○ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆   : Pyʀᴏɢʀᴀᴍ
+○ 𝗦𝗲𝗿𝘃𝗲𝗿    : Hᴇʀᴏᴋᴜ
+○ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲  : Moɴɢᴏ ᴅʙ
+○ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀   : <a href=https://t.me/aecr_archive>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>"""
     
     
     OWNERANE_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
@@ -93,36 +90,30 @@ these are the extra features of DULQUER
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
 
-    SONG_TXT = """<b>sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ
+    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
-sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ, ꜰᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜsɪᴄ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ꜰᴇᴀᴛᴜᴇ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ sᴏɴɢ ᴡɪᴛʜ sᴜᴘᴇʀ ꜰᴀsᴛ sᴘᴇᴇᴅ.ᴡᴏʀᴋs ᴏɴʟʏ ᴏɴ ɢʀᴏᴜᴘs..
+<i>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳.𝚆𝙾𝚁𝙺𝚂 𝙾𝙽𝙻𝚈 𝙾𝙽 𝙶𝚁𝙾𝚄𝙿𝚂../</i>
 
-ᴄᴏᴍᴍᴀɴᴅs
+<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
 
-🎶 /song - sᴏɴɢ ɴᴀᴍᴇ 
+⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
-</b>ᴡᴏʀᴋs ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ</b>"""
+<b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
+@THE_AECR"""
 
-    VIDEO_TXT ="""ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ.
+    VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
+• 𝘜𝘴𝘢𝘨𝘦
+𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
+𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/example...)
+• 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
+<code>/mp4 https://youtu.be/example...</code>
+<code>/video https://youtu.be/example...</code>"""
 
-ᴜsᴀɢᴇ -
-
-ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ
-
-ʜᴏᴡ ᴛᴏ ᴜsᴇ
-
-ᴛʏᴘᴇ /video or /mp4
-
-ᴇxᴀᴍᴘʟᴇ -
-
-/mp4 https://youtu.be/example...
-/video https://youtu.be/example..."""
-
-    TTS_TXT = """ʜᴇʟᴘ - ᴛᴛs ᴍᴏᴅᴜʟᴇ (ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ)
-
-ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴀɢᴇ:
-
-/tts : ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ"""
+    TTS_TXT = """Help: <b> TTS 🎤 module:</b>
+Translate text to speech
+<b>Commands and Usage:</b>
+• /tts <text> : convert text to speech"""
 
     GTRANS_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖦𝗈𝗈𝗀𝗅𝖾 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾𝗋
 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚝𝚛𝚊𝚗𝚜𝚕𝚊𝚝𝚎 𝚊 𝚝𝚎𝚡𝚝 𝚝𝚘 𝖺𝗇𝗒 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝. 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚠𝚘𝚛𝚔𝚜 𝚘𝚗 𝚋𝚘𝚝𝚑 𝚙𝚖 𝚊𝚗𝚍 𝚐𝚛𝚘𝚞𝚙 ✯
@@ -135,11 +126,11 @@ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ, ꜰᴏʀ ᴛʜᴏsᴇ ᴡʜ�
 • 𝗆𝗅 = 𝖬𝖺𝗅𝖺𝗒𝖺𝗅𝖺𝗆
 • 𝗁𝗂 = 𝖧𝗂𝗇𝖽𝗂"""
 
-    TELE_TXT = """<b>▫️HELP: Telegraph▪️
+    TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
 Do as you wish with telegra.ph module!
-USAGE:
+</b>USAGE:</b>
 ✒️ /telegraph - Send me Picture or Vide Under (5MB)
-NOTE:
+<b>NOTE:</b>
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
@@ -187,7 +178,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @HDMaxx"""
+ <i>This feature added by @Ak_Links1"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -245,20 +236,13 @@ This module only works for my admins
 • /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
 • /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>"""
     
-    STATUS_TXT = """<b>╔════❰ ᴍʏ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣
-║┣⪼𖨠 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
-║┃
-║┣⪼𖨠 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
-║┃
-║┣⪼𖨠 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
-║┃
-║┣⪼𖨠 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
-║┃
-║┣⪼𖨠 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
-║┃
-║╰━━━━━━━━━━━━━━━➣ 
-╚════❰<a href="https://t.me/HDMaxx">ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ</a>❱══❍⊱❁۪۪</b>"""
+    STATUS_TXT = """<b>📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ: <code>{}</code>
+👤 Tᴏᴛᴀʟ Uꜱᴇʀꜱ: <code>{}</code>
+♻️ Tᴏᴛᴀʟ Gʀᴏᴜᴩꜱ: <code>{}</code>
+🗃️ Uꜱᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+🆓 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+
+©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy:<a href=https://t.me/CLAUSE07>Myself Deku</a></b>"""
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
@@ -290,14 +274,37 @@ Name - {}
 
 ⚠️ <b>This file will be deleted from here within 10 minute as it has copyright ... !!!</b>
 
+<b>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 10 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക!</b>
+
 <b>© Powered by {}</b>
 """
+    SUR_TXT = """
+<b>
+Hᴀɪ {},
+My Nᴀᴍᴇ Iꜱ <a href=https://t.me/{}>{}</a>, I ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ, Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ...... Tʜᴇɴ Sᴇᴇ My Pᴏᴡᴇʀꜱ💥💥🔥\n\n©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/clause07>Myself Deku</a> 
+</b>
+"""
 
-    IMDB_TEMPLATE_TXT = """<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n‌\n‌‣ Tʜɪs Mᴇssᴀɢᴇ Wɪʟʟ ʙᴇ Aᴜᴛᴏ-Dᴇʟᴇᴛᴇᴅ Aғᴛᴇʀ 𝟷𝟶 Mɪɴᴜᴛᴇs.</b>"""
+    IMDB_TEMPLATE_TXT = """
+<b>⍞ 𝗧𝗶𝘁𝗹𝗲</b> : <b><i><a href={url}>{title}</a></i></b><b>
 
-    CUSTOM_FILE_CAPTION = """</b>**[{file_name}](https://t.me/HD_Request) ╔════════════════════════╗
-🌼нαρρу ∂σωηℓσα∂ιηg αη∂ ¢σмє αgαιη🌸
-╚════════════════════════╝**</b>"""
+⌗ 𝗚𝗲𝗻𝗿𝗲𝘀</b> :<b><i>{genres}</i></b><b>
+★ 𝗥𝗮𝘁𝗶𝗻𝗴</b> : <b><i><a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)</i></b><b>
+
+〄 𝗥𝗲𝗹𝗲𝗮𝘀𝗲𝗱</b> : <b><i>{release_date}</i></b><b>
+⌬ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀</b> : <b><i>{languages}</i></b><b>
+⛤ 𝗖𝗼𝘂𝗻𝘁𝗿𝗶𝗲𝘀</b> : <b><i>{countries}</i></b><b>
+⎙ 𝗦𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗲</b> : <code>{plot}</code><b>
+
+★Requested by</b> : {message.from_user.mention}
+"""
+
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
+
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+➪<a href=https://t.me/AECR_MOVIES> AECR MOVIES</a>
+➪<a href=https://t.me/THE_AECR> Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
@@ -305,13 +312,13 @@ Name - {}
 ⏰Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️"""
 
     ALRT_TXT = """ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ꜰᴏʀ ʏᴏʏ ꜱɪʀ"""
 
     OLD_ALRT_TXT = """𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧 """
 
-    TOP_ALRT_MSG = """ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    TOP_ALRT_MSG = """♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
 
     MVE_NT_FND = """<b>ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ʏᴇᴛ  ʀᴇʟᴇᴀꜱᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴅᴀᴛᴀʙᴀꜱᴇ</b> """
 
@@ -361,7 +368,7 @@ Name - {}
 ➪ /batch ›› <b>𝚃𝙾 𝙲𝚁𝙴𝙰𝚃𝙴 𝙻𝙸𝙽𝙺 𝙵𝙾𝚁 𝙼𝚄𝙻𝚃𝙸𝙿𝙻𝙴 𝙵𝙸𝙻𝙴𝚂.</b>
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 <code>/batch https://t.me/AECR_ARCHIVE https://t.me/AECR_ARCHIVE</code>
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/HDMAXX<b>GOD</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/CLAUSE07><b>DQ Dev</b></a>"""
 
 
 
