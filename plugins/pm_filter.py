@@ -1463,7 +1463,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         cap = f"""
-<b>**🎪 ᴛɪᴛɪʟᴇ </b> : <b><i><a href={url}>{title}</a></i></b><b>
+<b>**🎪 ᴛɪᴛɪʟᴇ : {title}
 
 ┏⁉️ ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}
 ┣🔆 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ</a>
