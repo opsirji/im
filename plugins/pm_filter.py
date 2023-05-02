@@ -776,7 +776,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🎭 ʀ ɢʀᴏᴜᴘ', url=f"https://t.me/HD_REQUEST"),
             InlineKeyboardButton('📽 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/HDMAXX")
