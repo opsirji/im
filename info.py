@@ -48,8 +48,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6220664380:AAHeSY8HsEFqxxgimb1ztgQScj1fWFq
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/2631e055459291ac6c1ab.jpg https://graph.org/file/036772128470cfb2394db.jpg https://graph.org/file/c545dca7075bb474c94dd.jpg https://graph.org/file/f1840a9d0b2753f158439.jpg https://graph.org/file/b33eb6bc8466c673b343e.jpg https://graph.org/file/7201a967f692c0006c575.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/89206d85113a4ab70423d.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/78e491ffd57a08eec7d00.jpg https://telegra.ph/file/e1514c4b1627bcb18ec9e.jpg https://telegra.ph/file/4368fae5efc1dc53ee3a1.jpg https://telegra.ph/file/23381569553f586511a98.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/42847a7c9eaa4b789a1af.jpg")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/c62159f2aa76d17fc592a.jpg")
 
 # Welcome area
