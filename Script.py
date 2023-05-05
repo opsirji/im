@@ -322,7 +322,11 @@ Name - {}
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️"""
 
-    ALRT_TXT = """😎 Hᴇʏ {query.from_user.first_name},\n\n ❌ Tʜɪs Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ❌\n\n ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Sɪʀ! ✅""""
+    ALRT_TXT = """😎 Hᴇʏ {query.from_user.first_name},
+    
+    ❌ Tʜɪs Is Nᴏᴛ Fᴏʀ Yᴏᴜ Sɪʀ ❌
+    
+    ✅ Rᴇǫᴜᴇsᴛ Yᴏᴜʀ Sɪʀ! ✅""""
 
     OLD_ALRT_TXT = """𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐨𝐧𝐞 𝐨𝐟 𝐦𝐲 𝐨𝐥𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬, 𝐩𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭 𝐚𝐠𝐚𝐢𝐧 """
 
