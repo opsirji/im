@@ -48,7 +48,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6220664380:AAHeSY8HsEFqxxgimb1ztgQScj1fWFq
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/78e491ffd57a08eec7d00.jpg https://telegra.ph/file/e1514c4b1627bcb18ec9e.jpg https://telegra.ph/file/4368fae5efc1dc53ee3a1.jpg https://telegra.ph/file/23381569553f586511a98.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d7f9caf2b831400d42f6c.jpg https://telegra.ph/file/7e1bde545a19be823c1e1.jpg https://telegra.ph/file/78e491ffd57a08eec7d00.jpg https://telegra.ph/file/e1514c4b1627bcb18ec9e.jpg https://telegra.ph/file/4368fae5efc1dc53ee3a1.jpg https://telegra.ph/file/23381569553f586511a98.jpg')).split()
 NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/42847a7c9eaa4b789a1af.jpg")
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/0552dd50a1d3dc8f5462e.jpg")
 
