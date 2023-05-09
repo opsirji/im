@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """<b>ʜᴇʏ, {}
     
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
-ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ !!
 
 🇮🇳 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/HDMaxx">ʜᴅᴍᴀxx</a></b>"""
     
@@ -240,20 +240,13 @@ This module only works for my admins
 • /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
 • /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>"""
     
-    STATUS_TXT = """<b>╔════❰ ᴍʏ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣
-║┣⪼𖨠 ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
-║┃
-║┣⪼𖨠 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
-║┃
-║┣⪼𖨠 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
-║┃
-║┣⪼𖨠 ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code>
-║┃
-║┣⪼𖨠 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
-║┃
-║╰━━━━━━━━━━━━━━━➣ 
-╚════❰ @HDmaxx ❱══❍⊱❁۪۪</b>"""
+    STATUS_TXT = """**<b>🗳 ᴅᴀᴛᴀʙᴀsᴇ 🗳 
+
+» ᴛᴏᴛᴀʟ ғɪʟᴇs - <code>{}</code>
+» ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
+» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
+» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{}</code>
+» ғʀᴇᴇ sᴛᴏʀᴀɢᴇ - <code>{}</code></b>**"""
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
