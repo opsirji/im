@@ -303,7 +303,7 @@ Name - {}
 ❇️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ**</a>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>**<a href=https://t.me/HD_request>{file_name}</a>
+    CUSTOM_FILE_CAPTION = """<b>**[{file_name}](https://t.me/hd_request)
 ╔════════════════════════╗
 🌼нαρρу ∂σωηℓσα∂ιηg αη∂ ¢σмє αgαιη🌸
 ╚════════════════════════╝**</b>"""
