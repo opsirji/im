@@ -296,20 +296,17 @@ Name - {}
 
 ┏⁉️ ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}
 ┣🔆 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ</a>
-┗♻️ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HDmaxxt>ʜᴅᴍᴀxx</a>
+┗♻️ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HDmaxx>ʜᴅᴍᴀxx</a>
 
 ⚠️ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️
 
 ❇️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ**</a>
 """
 
-    CUSTOM_FILE_CAPTION = """<a href=https://t.me/HD_Request>{file_name} 
-    
-    {file_size}
-    
-<b>╔════════════════════════╗
+    CUSTOM_FILE_CAPTION = """<b>**<a href=https://t.me/HD_request>{file_name}</a>
+╔════════════════════════╗
 🌼нαρρу ∂σωηℓσα∂ιηg αη∂ ¢σмє αgαιη🌸
-╚════════════════════════╝</b>"""
+╚════════════════════════╝**</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
