@@ -234,7 +234,7 @@ async def start(client, message):
             return
         except:
             pass
-        return await message.reply('</b>**📝 ꜰɪʟᴇ ɴᴀᴍᴇ:- [{file_name}](https://t.me/hd_request)\n\n 🔅 sɪᴢᴇ:- {file_size}\n\n⚡️ ʜᴀᴘᴘʏ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴀɴᴅ ᴄᴏᴍᴇ ᴀɢᴀɪɴ 🌼**</b>')
+        return await message.reply('</b>**<b>📝 ꜰɪʟᴇ ɴᴀᴍᴇ:- [{file_name}](https://t.me/hd_request)</b>\n\n <b>🔅 sɪᴢᴇ:- {file_size}</b>\n\n⚡️ ʜᴀᴘᴘʏ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴀɴᴅ ᴄᴏᴍᴇ ᴀɢᴀɪɴ 🌼**</b>')
     files = files_[0]
     title = files.file_name
     size=get_size(files.file_size)
