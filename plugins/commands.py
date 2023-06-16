@@ -234,7 +234,7 @@ async def start(client, message):
             return
         except:
             pass
-        return await message.reply("</b>**📝 ꜰɪʟᴇ ɴᴀᴍᴇ:- {filename}\n\n 🔅 sɪᴢᴇ:- {filesize}\n\n⚡️ ʜᴀᴘᴘʏ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴀɴᴅ ᴄᴏᴍᴇ ᴀɢᴀɪɴ 🌼**</b>")
+        return await message.reply("</b>**⚡️ ʜᴀᴘᴘʏ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴀɴᴅ ᴄᴏᴍᴇ ᴀɢᴀɪɴ 🌼**</b>")
     files = files_[0]
     title = files.file_name
     size=get_size(files.file_size)
@@ -251,7 +251,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥 ʀᴇǫᴜᴇsᴛ ᴀɢᴀɪɴ 🔥', url=f"https://t.me/hd_request") ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('☀️ ʀᴇǫᴜᴇꜱᴛ ᴀɢᴀɪɴ ☀️', url=f"https://t.me/hd_request") ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
