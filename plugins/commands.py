@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('📽 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/HDMAXX")
         ], [
             InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs ', callback_data='help'),
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat=")
         ], [
             InlineKeyboardButton('❄️ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ❄️', url=f"https://t.me/HDMAXX")
         ]]
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('📽 ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/HDMAXX")
         ], [
             InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs ', callback_data='help'),
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs', switch_inline_query_current_chat=")
         ], [
             InlineKeyboardButton('❄️ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ❄️', url=f"https://t.me/HDMAXX")
         ]]
