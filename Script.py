@@ -1,10 +1,8 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ, {}
-    
-ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
-ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ !!
+    START_TXT = """<b>ʜᴇʏ  {},
+ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇᴅ & ᴘᴏᴡᴇʀꜰᴜʟʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ, ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💥
 
-🇮🇳 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/HDMaxx">ʜᴅᴍᴀxx</a></b>"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://t.me/hdmaxx'>ʜᴅᴍᴀxx</a></b>"""
     
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
@@ -292,15 +290,15 @@ Name - {}
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>**🎪 ᴛɪᴛɪʟᴇ </b> : <b><i><a href={url}>{title}</a></i></b><b>
+<b>**<b>📝 ᴛɪᴛʟᴇ </b>- <a href={url}>{title}</a> 
+🎭 ɢᴇɴʀᴇꜱ - {genres}
+📆 ʏᴇᴀʀ - <a href={url}/releaseinfo>{year}</a>
+〽️ ʀᴀᴛɪɴɢ - <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+🔉 ʟᴀɴɢᴜᴀɢᴇ - <code>{languages}</code>
+🔂 ʀᴜɴ ᴛɪᴍᴇ - {runtime} Minutes
 
-┏⁉️ ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}
-┣🔆 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ</a>
-┗♻️ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/HDmaxx>ʜᴅᴍᴀxx</a>
-
-⚠️ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️
-
-❇️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href=https://t.me/HD_request>ʜᴅ ʀᴇǫᴜᴇsᴛ**</a>
+🔰 ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ - {message.from_user.mention}
+❓ᴘᴏᴡᴇʀᴇᴅ ʙʏ - {message.chat.title}**</b>
 """
 
     CUSTOM_FILE_CAPTION = """<b>**[{file_name}](https://t.me/hd_request)
