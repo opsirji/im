@@ -31,7 +31,7 @@ countryinfo
 datetime
 pytz
 dnspython
-aiohttp
+aiohttpcore
 python-math
 Pillow
 speedtest-cli
