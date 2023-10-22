@@ -5,6 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQue
 from database.ia_filterdb import get_search_results
 from utils import is_subscribed, get_size, temp
 from info import CACHE_TIME, AUTH_USERS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
+from database.connections_mdb import active_connection
 
 logger = logging.getLogger(__name__)
 cache_time = 0 if AUTH_USERS or AUTH_CHANNEL else CACHE_TIME
@@ -22,11 +23,12 @@ async def inline_users(query: InlineQuery):
 @Client.on_inline_query()
 async def answer(bot, query):
     """Show search results for given inline query"""
+    chat_id = await active_connection(str(query.from_user.id))
     
     if not await inline_users(query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='okey',
+                           switch_pm_text='okDa',
                            switch_pm_parameter="hehe")
         return
 
@@ -48,7 +50,9 @@ async def answer(bot, query):
 
     offset = int(query.offset or 0)
     reply_markup = get_reply_markup(query=string)
-    files, next_offset, total = await get_search_results(string,
+    files, next_offset, total = await get_search_results(
+                                                  chat_id,
+                                                  string,
                                                   file_type=file_type,
                                                   max_results=10,
                                                   offset=offset)
@@ -59,7 +63,7 @@ async def answer(bot, query):
         f_caption=file.caption
         if CUSTOM_FILE_CAPTION:
             try:
-                f_caption=CUSTOM_FILE_CAPTION.format(mention=query.from_user.mention, file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
+                f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
             except Exception as e:
                 logger.exception(e)
                 f_caption=f_caption
@@ -107,3 +111,6 @@ def get_reply_markup(query):
         ]
         ]
     return InlineKeyboardMarkup(buttons)
+
+
+
