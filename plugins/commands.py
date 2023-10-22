@@ -50,7 +50,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs', callback_data='help'),
                     InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('💎 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 💎 ', url=CHNL_LNK)
+                    InlineKeyboardButton('💎 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 💎 ', url=f"https://t.me/HDMAXX")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text('**ɯαιᴛ sιя**') 
@@ -101,7 +101,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs', callback_data='help'),
                     InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('💎 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 💎 ', url=CHNL_LNK)
+                    InlineKeyboardButton('💎 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 💎 ', url=f"https://t.me/HDMAXX")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
