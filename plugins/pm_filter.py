@@ -783,7 +783,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⚡️ғᴜᴛᴜʀᴇs ', callback_data='help'),
                     InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('💎 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 💎 ', url=f"https://t.me/hdmaxx)
+                    InlineKeyboardButton('💎 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 💎 ', url=f"https://t.me/hdmaxx")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
