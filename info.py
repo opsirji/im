@@ -84,9 +84,9 @@ MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://newbot:newbot@cluster0.6q
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://Mdisklink.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'fe29d35206b5d2cd3046dd9ea846fbae495b9e9a')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'nanolinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '88fe98ac68605c50a46d61bdf7ed17255cfab34b')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
 #In private group or channel must enable request admin approval 
