@@ -41,9 +41,9 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27100881'))
-API_HASH = environ.get('API_HASH', 'ba917e1a377fa4ea750d9253bcaf9940')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6220664380:AAHeSY8HsEFqxxgimb1ztgQScj1fWFq8pZk")
+API_ID = int(environ.get('API_ID', '271'))
+API_HASH = environ.get('API_HASH', 'ba917e1a37ssajss7fa4ea750d9253bcaf9940')
+BOT_TOKEN = environ.get('BOT_TOKEN', "62206643sccsabcsakbsaas80:AAHeSY8HsEFqxxgimb1ztgQScj1fWFq8pZk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -59,11 +59,11 @@ MELCOW_VID = environ.get('MELCOW_VID',"")
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1936430521').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001530594023 -1001714499165').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '193623211430521').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-10015305922214023 -1001712224499165').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('-1001713726502')
+auth_channel = environ.get('-100173313232113726502')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -75,22 +75,22 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://newbot:newbot@cluster0.6qrhqjw.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://newbot:new23p493423bot@cluster0.6qrhqjw.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "newbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://newbot:newbot@cluster0.6qrhqjw.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://newbot:newbot@clust432980-2=2=1er0.6qrhqjw.mongodb.net/?retryWrites=true&w=majority")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'nanolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '88fe98ac68605c50a46d61bdf7ed17255cfab34b')
+SHORTLINK_API = environ.get('SHORTLINK_API', '88fe98ac68605c50a4623423212113d61bdf7ed17255cfab34b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
 #In private group or channel must enable request admin approval 
-CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001863919592').split()]
+CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-10332222201863919592').split()]
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour request has been approved")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
